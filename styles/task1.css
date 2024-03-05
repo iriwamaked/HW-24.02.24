@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1rem;
+  background-color: #e3effb;
+}
+
+.mainDivMessage {
+  border: 2px solid #4747fb;
+  margin: 1rem;
+}
+
+.divToFirstString {
+  border-bottom: 1px solid #6966fb;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2.2rem 0.5rem 1rem;
+}
+
+.messageCss {
+  padding: 0.5rem 1rem;
+}
+
+.divSendMess {
+  margin: 0 1rem;
+}
+
+label {
+  width: 10%;
+  /* flex:1; */
+}
+
+.label1 {
+  display: table-cell;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.divInput {
+  display: flex;
+  margin-bottom: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+input,
+textarea {
+  margin-left: 0.5rem;
+  width: 90%;
+  padding: 0.3rem;
+}
+
+#buttonSend {
+  width: 100%;
+}
