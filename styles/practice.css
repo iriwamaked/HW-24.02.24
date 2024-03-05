@@ -1,0 +1,8 @@
+#inputDiv label, input, span{
+    display: block;
+    margin: 1rem;
+}
+
+button{
+    margin: 0 1rem;
+}
