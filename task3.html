@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stylized Text</title>
+    <link rel="stylesheet" href="./styles/task3.css" />
+  </head>
+  <body>
+    <form id="textForm">
+      <label for="textInput">Enter Text:</label><br />
+      <textarea id="textInput" name="textInput"></textarea><br /><br />
+
+      <input
+        type="checkbox"
+        id="boldCheckbox"
+        name="styleCheckbox"
+        value="bold"
+      />
+      <label for="boldCheckbox">Bold</label>
+
+      <input
+        type="checkbox"
+        id="italicCheckbox"
+        name="styleCheckbox"
+        value="italic"
+      />
+      <label for="italicCheckbox">Italic</label>
+
+      <input
+        type="checkbox"
+        id="underlineCheckbox"
+        name="styleCheckbox"
+        value="underline"
+      />
+      <label for="underlineCheckbox">Underline</label>
+
+      <input type="checkbox" id="LeftCheckbox" name="alignment" value="left" />
+      <label for="LeftCheckbox">Left</label>
+
+      <input
+        type="checkbox"
+        id="RightCheckbox"
+        name="alignment"
+        value="right"
+      />
+      <label for="RightCheckbox">Right</label>
+
+      <input
+        type="checkbox"
+        id="JustifyCheckbox"
+        name="alignment"
+        value="justify"
+      />
+      <label for="JustifyCheckbox">Justify</label>
+
+      <button type="submit">ShowText</button>
+    </form>
+
+    <div> 
+        <h2>Result:</h2>
+        <div id="output"> </div>
+    </div>
+
+    <script src="/assets/task3.js"></script>
+  </body>
+</html>
