@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+div{
+    margin: 1rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+h2{
+    font-size: 18px;
+}
+
+input{
+    margin-right:  0.2rem;
+}
+
+button{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 50px;
+}
+
+.rgroup{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
